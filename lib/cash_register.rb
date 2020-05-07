@@ -16,4 +16,6 @@ class CashRegister
     @total *= (100.0-discount)/100.0
     @discount == 0 ? "There is no discount to apply." : "After the discount, the total comes to $#{@total.round}."
   end
+  
+  
 end
